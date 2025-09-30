@@ -143,12 +143,15 @@ body {
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13" stroke="%23000"/></svg>');
 }
 
-.cuerpo-ventana {
+#cuerpo-ventana {
     text-align: center;
     padding: 20px;
 }
 
-.btnPlay-img {
+#btnPlay {
+    background: none;
+    border: none;
+    padding: 0;
     display: inline-block;
     position: relative;
     width: 150px;
@@ -157,7 +160,7 @@ body {
     cursor: url(../img/click.png), auto;
 }
 
-.btnPlay-img img {
+#btnPlay img {
     width: 100%;
     height: 100%;
     display: block;
@@ -171,12 +174,9 @@ body {
     transform: translate(-50%, -50%);
     font-size: 20px;
     font-family: Font1;
-    font-weight: bold;
-    color: #313131;
-    text-transform: uppercase;
-    white-space: nowrap;
-    cursor: url(../img/click.png), auto;
+    /* ... el resto de tus estilos ... */
     margin-top: -5px;
+    cursor: url(../img/click.png), auto;
 }
 
 .parpadea-btn {
@@ -195,6 +195,9 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+
+/* Footer y sus componentes: */
 
 #footer {
     position: fixed;

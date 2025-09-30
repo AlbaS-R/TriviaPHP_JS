@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="assets/css/styles.css">
-        <script src="assets/js/script.js"></script>
+        
     </head>
     <body>
         <div class="escritorio">
@@ -33,14 +33,18 @@
                     <button class="control cerrar"></button>
                 </div>
             </div>
-            <div class="cuerpo-ventana">
+            <div id="cuerpo-ventana">
                 <h1>Bienvenido al juego de trivia.</h1>
                 <h2>Empezamos?</h2>
-                <a href class="btnPlay-img">
+                <button id="btnPlay" type="button">
                     <img src="assets/img/btn/btn-pa.png" alt="Botón Play">
                     <span class="text-btn parpadea-btn">Play</span>
-                </a>
-                <!-- <button class="btnPlay"> </button> -->
+                </button>
+
+            </div>
+            <div id="juego">
+                <h3 id="preguntas"> </h3>
+
             </div>
         </div>
         <div id="footer">
@@ -54,12 +58,14 @@
                 <span>Logos Trivia</span>
             </div>
             <div class="barra_tareas">
-                
-                <img src="assets/img/iconos/pixil-frame-0.png" alt="">
+
+                <img src="assets/img/iconos/pixil-frame-0.png" alt>
                 <span id="reloj">^</span>
                 <span id="reloj">00:00</span>
             </div>
         </div>
         <div></div>
+
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
