@@ -1,77 +1,252 @@
-*{
-    cursor: url(../img/cursor.png), 
-   auto;
-}
-html{
-   cursor: url(../img/cursor.png), 
-   auto; 
-}
-@font-face {
-  font-family: Font1; 
-  src: url(../tg/p_kosmo/PLANK___.TTF); 
-}
-@font-face {
-  font-family: Font2; 
-  src: url(../tg/SG/Game\ Of\ Squids.ttf);
-}
-@font-face {
-  font-family: Font3; 
-  src: url(../tg/retroking/Retroking.ttf);
-}
-@font-face {
-  font-family: Font4; 
-  src: url(../tg/retroparty/Retroparty.ttf);
-}
-@font-face {
-  font-family: Font5; 
-  src: url(../tg/retroville/Retroville_DEMO.ttf);
-}
-@font-face {
-  font-family: Font6; 
-  src: url(../tg/retroyoung/Retro\ Young.otf);
+* {
+    cursor: url(../img/cursor.png), auto;
 }
 
-body{
-    background-image: url(../img/fondo_p1.png);
+html {
+    cursor: url(../img/cursor.png), auto;
+}
+
+@font-face {
+    font-family: Font1;
+    src: url(../tg/pixel_3/pixel.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(../tg/SG/Game\ Of\ Squids.ttf);
+}
+
+@font-face {
+    font-family: Font3;
+    src: url(../tg/retroking/Retroking.ttf);
+}
+
+@font-face {
+    font-family: Font4;
+    src: url(../tg/retroparty/Retroparty.ttf);
+}
+
+@font-face {
+    font-family: Font5;
+    src: url(../tg/retroville/Retroville_DEMO.ttf);
+}
+
+@font-face {
+    font-family: Font6;
+    src: url(../tg/retroyoung/Retro\ Young.otf);
+}
+
+body {
+    background-image: url(../img/fondo_inicio-pa.jpg);
     background-size: cover;
+    margin: 0;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-     
+   
+}
+
+
+/* Escritorio, decorado */
+
+.escritorio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding: 10px;
+}
+
+
+
+
+.escritorio a {
+    display: block;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
     
 }
 
-#entrada{
-    text-align: center;
-    margin-top: 200px;
-    font-family: Font2;
+.escritorio a img {
+    width: 58px;
+    height: 58px;
+    display: block;
+    margin: 0 auto 5px auto;
+    cursor: url(../img/click.png), auto;
+}
+
+
+/* contenido de la ventana */
+
+#ventana-xp {
+    width: 800px;
+    margin: 50px auto;
+    height: 500px;
+    border: 1px solid rgb(0, 56, 128);
+    box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2), -1px -1px 0px 0px rgba(255, 255, 255, 0.4);
+    background-image: url(../img/arcade.gif);
+    background-size: cover;
+    padding-bottom: 5px;
     color: white;
-    text-shadow:
-    1px 0 0 rgb(95, 0, 133),    /* Desplaza a la derecha */
-    -1px 0 0 rgb(95, 0, 133),   /* Desplaza a la izquierda */
-    0 1px 0 rgb(95, 0, 133),    /* Desplaza abajo */
-    0 -1px 0 rgb(95, 0, 133); 
+    font-family: Font1;
+    z-index: 2;
 }
 
-.btnPlay{
-    font-family: Font6;
+.barra-titulo {
+    background-image: linear-gradient( to bottom, rgb(0, 79, 182), rgb(0, 56, 128));
+    color: white;
+    padding: 2px 5px 2px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Font1;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.barra-titulo .titulo {
+    flex-grow: 1;
+}
+
+
+/* Estilos de los botones de control de la ventana */
+
+.controles-ventana {
+    display: flex;
+    gap: 2px;
+}
+
+.controles-ventana button.control {
+    width: 20px;
+    height: 18px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.8), -1px -1px 0px 0px rgba(0, 0, 0, 0.4);
+    background-color: rgb(210, 210, 210);
+    cursor: default;
+    padding: 0;
+    color: white;
+    font-family: Font1;
+    font-size: 0;
+    cursor: url(../img/click.png), auto;
+}
+
+.control.minimizar {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2 13h12v-1H2z" fill="%23000"/></svg>');
+}
+
+.control.maximizar {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2 3h12v10H2zM3 4v8h10V4z" fill="%23000"/></svg>');
+}
+
+.control.cerrar {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13" stroke="%23000"/></svg>');
+}
+
+.cuerpo-ventana {
+    text-align: center;
+    padding: 20px;
+}
+
+.btnPlay-img {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 60px;
+    text-decoration: none;
+    cursor: url(../img/click.png), auto;
+}
+
+.btnPlay-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: url(../img/click.png), auto;
+}
+
+.btnPlay-img .text-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 20px;
-    padding: 10px 20px;
-    cursor: url(../img/click.png), 
-    auto; 
+    font-family: Font1;
+    font-weight: bold;
+    color: #313131;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: url(../img/click.png), auto;
 }
 
-#footer{
-     position: absolute;
+.parpadea-btn {
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+}
+
+.cuerpo-ventana h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
-    background-image: linear-gradient(
-        to bottom,
-        rgb(0, 79, 182),
-        rgb(0, 56, 128)
-    );
+    height: 35px;
+    background-image: linear-gradient( to bottom, rgb(0, 79, 182), rgb(0, 56, 128));
     border-top: 1px solid rgb(0, 93, 203);
-    box-shadow: 
-        inset 0 1px 0px 0px rgba(255, 255, 255, 0.4),
-        inset 0 -1px 0px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0px 0px rgba(255, 255, 255, 0.4), inset 0 -1px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: url(../img/cursor.png), auto;
+}
+
+
+/* efectos de texto */
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
 }
