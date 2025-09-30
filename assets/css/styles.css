@@ -202,7 +202,8 @@ body {
 }
 
 #footer {
-    position: absolute;
+    position: fixed; /* O absolute, según prefieras */
+    display: flex;
     bottom: 0;
     width: 100%;
     height: 35px;
@@ -211,6 +212,34 @@ body {
     box-shadow: inset 0 1px 0px 0px rgba(255, 255, 255, 0.4), inset 0 -1px 0px 0px rgba(0, 0, 0, 0.2);
     cursor: url(../img/cursor.png), auto;
 }
+
+.wdws{
+    
+    display: flex;
+    background-color: green;
+    bottom: 0;
+    width: 200px;
+    border-radius: 30px;
+    height: auto;
+    margin-left: -70px;
+    margin-top: 0;
+    align-items: center;
+}
+
+.logo-wdws{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.wdws p{
+    font-family: Font1;
+    color: white;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 
 
 /* efectos de texto */
