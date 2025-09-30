@@ -212,16 +212,16 @@ body {
     display: flex;
     background-color: green;
     bottom: 0;
-    width: 200px;
+    width: 250px;
     border-radius: 30px;
     height: auto;
-    margin-left: -65px;
+    margin-left: -75px;
     margin-top: 0;
     align-items: center;
 }
 
 .logo-wdws {
-    margin-left: px;
+    margin-left: 90px;
     width: 30px;
     height: 30px;
 }
