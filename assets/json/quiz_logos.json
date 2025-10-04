@@ -1,0 +1,409 @@
+{
+    "preguntes": [
+        {
+            "id": 1,
+            "pregunta": "Quin logotip mostra una poma mossegada?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Apple",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Microsoft",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Dell",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "HP",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+        },
+        {
+            "id": 2,
+            "pregunta": "Quin logotip mostra una papallona de colors?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "MSN",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Yahoo",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Google",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Firefox",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/0/08/MSN_logo_%282014%29.svg"
+        },
+        {
+            "id": 3,
+            "pregunta": "Quin logotip té una 'M' groga en forma d’arcs?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "McDonald's",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Burger King",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Subway",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "KFC",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/4/4e/McDonald%27s_logo.svg"
+        },
+        {
+            "id": 4,
+            "pregunta": "Quin logotip és un ocell blau estilitzat?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Twitter (X)",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Facebook",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "LinkedIn",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Telegram",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg"
+        },
+        {
+            "id": 5,
+            "pregunta": "Quin logotip són quatre anells entrellaçats?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Audi",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Olympic Games",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Toyota",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Volkswagen",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Audi_logo_detail.svg"
+        },
+        {
+            "id": 6,
+            "pregunta": "Quin logotip és una sirena verda?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Starbucks",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Costa Coffee",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Nespresso",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Tim Hortons",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Coffee_Logo.svg"
+        },
+        {
+            "id": 7,
+            "pregunta": "Quin logotip és una coma (swoosh) negra?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Nike",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Adidas",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Puma",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Reebok",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
+        },
+        {
+            "id": 8,
+            "pregunta": "Quin logotip té un cocodril verd?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Lacoste",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Ralph Lauren",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Gucci",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Levi's",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lacoste_logo.svg"
+        },
+        {
+            "id": 9,
+            "pregunta": "Quin logotip és un panda blanc i negre?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "WWF",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Greenpeace",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Discovery Channel",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "National Geographic",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/0/06/WWF_logo.svg"
+        },
+        {
+            "id": 10,
+            "pregunta": "Quin logotip té una fletxa amagada entre la 'E' i la 'x'?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "FedEx",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "DHL",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "UPS",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Amazon",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/7/7d/FedEx_Express.svg"
+        },
+        {
+            "id": 11,
+            "pregunta": "Quin logotip té un cavall negre dins d’un escut groc?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Ferrari",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Porsche",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Lamborghini",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Maserati",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/en/9/9d/Ferrari-Logo.svg"
+        },
+        {
+            "id": 12,
+            "pregunta": "Quin logotip té un gall vermell sobre un cercle blanc?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "KFC",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Chick-fil-A",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Popeyes",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Nando's",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/en/6/6e/KFC_logo.svg"
+        },
+        {
+            "id": 13,
+            "pregunta": "Quin logotip té tres ratlles paral·leles inclinades?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Adidas",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Nike",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Reebok",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Puma",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
+        },
+        {
+            "id": 14,
+            "pregunta": "Quin logotip mostra una corona daurada sobre un cercle verd?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Rolex",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "Omega",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Tag Heuer",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Casio",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Rolex_logo.svg"
+        },
+        {
+            "id": 15,
+            "pregunta": "Quin logotip és una fletxa corba que somriu sota el text?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "resposta": "Amazon",
+                    "correcta": true
+                },
+                {
+                    "id": 2,
+                    "resposta": "eBay",
+                    "correcta": false
+                },
+                {
+                    "id": 3,
+                    "resposta": "Alibaba",
+                    "correcta": false
+                },
+                {
+                    "id": 4,
+                    "resposta": "Mercado Libre",
+                    "correcta": false
+                }
+            ],
+            "imatge": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+        }
+    ]
+}

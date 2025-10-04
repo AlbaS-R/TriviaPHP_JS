@@ -1,11 +1,11 @@
 <?php
-include 'conexio_bd.php';
+include 'conexionbd.php';
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$data = file_get_contents("../JSON/quiz_logos.json");
+$data = file_get_contents("../assets/json/quiz_logo.json");
 $array = json_decode($data, true);
 
 
