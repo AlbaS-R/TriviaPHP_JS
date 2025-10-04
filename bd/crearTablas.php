@@ -5,13 +5,14 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$data = file_get_contents("../assets/json/quiz_logo.json");
+$data = file_get_contents("../JSON/quiz_logos.json");
 $array = json_decode($data, true);
 
 
 $sql1 = "CREATE TABLE IF NOT EXISTS preguntes(
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  nom VARCHAR(255) NOT NULL
+  nom VARCHAR(255) NOT NULL,
+  imagen VARCHAR(255)
 )";
 
 if ($conn->query($sql1) === TRUE) {
