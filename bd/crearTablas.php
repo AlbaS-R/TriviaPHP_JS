@@ -35,15 +35,16 @@ if ($conn->query($sql2) === TRUE) {
   echo "Error creando tabla respostes: " . $conn->error . "<br>";
 }
 
-$stmtPreg = $conn->prepare("INSERT INTO preguntes (nom) VALUES (?)");
+$stmtPreg = $conn->prepare("INSERT INTO preguntes (nom, imagen) VALUES (?, ?)");
 $stmtResp = $conn->prepare("INSERT INTO respostes (pregunta_id, valor, esCorrecta) VALUES (?, ?, ?)");
-$stmtPreg->bind_param("s", $nom);
+$stmtPreg->bind_param("ss", $nom, $imatge);
 $stmtResp->bind_param("isi", $id, $valor, $esCorrecta);
 
 
 if (isset($array['preguntes']) && is_array($array['preguntes'])) {
     foreach ($array['preguntes'] as $preg) {
         $nom = $preg['pregunta'];
+        $imatge = $preg['imatge'];
         $stmtPreg->execute();
         $id = $conn->insert_id;
 
