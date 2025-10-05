@@ -303,7 +303,7 @@
             "respostes": [
                 {
                     "id": 1,
-                    "resposta": "KFC",
+                    "resposta": "Popeyes",
                     "correcta": true
                 },
                 {
@@ -313,7 +313,7 @@
                 },
                 {
                     "id": 3,
-                    "resposta": "Popeyes",
+                    "resposta": "KFC",
                     "correcta": false
                 },
                 {
