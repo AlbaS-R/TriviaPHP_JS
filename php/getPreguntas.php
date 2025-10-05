@@ -4,6 +4,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+// Conexión a la base de datos
+
 require '../bd/conexionbd.php';
 
 // Select preguntas y respuestas de BD
@@ -54,7 +56,7 @@ $_SESSION['preguntes'] = $preguntes;
 $_SESSION['puntuacio'] = 0;
 $_SESSION['index'] = 0;
 
-// Limpiar respuestas (borrar si es correcta)
+// Limpiar respuestas ( solo borrar si es correcta para no enviarlo al JS)
 foreach ($preguntes as $pregunta) {
     $opciones_limpias = [];
     foreach ($pregunta['respostes'] as $opcion) {
@@ -69,7 +71,7 @@ foreach ($preguntes as $pregunta) {
     ];
 }
 
-// responder JSON de preguntas limpias
+// Responde un JSON de preguntas limpias
 header('Content-Type: application/json; charset=utf-8');
 echo json_encode(['preguntes' => $preguntes_limpias], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 ?>
