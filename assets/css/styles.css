@@ -372,6 +372,16 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.imgPreg{
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 0 10px 0;
+    border: 1px solid #eee;
+    display: block; 
+    margin: 0 auto 10px auto;
+}
+
 /* Css para el finalitza */
 
 .finalitza {
@@ -419,6 +429,64 @@ body {
     transition: background-color 0.1s, box-shadow 0.1s;
 }
 
+/* Ventana de nombre de usuario */
+#nombre {
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    font-family: Font1;
+    font-size: 16px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2); 
+    margin-bottom: 10px;
+}
+
+.salutacio-usuari {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #ffde00; 
+    text-shadow: 1px 1px 0px #000000;
+}
+
+#nombre input[type="text"] {
+    padding: 3px;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #000;
+    box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.4), inset -1px -1px 0px 0px rgba(255, 255, 255, 0.8);
+    background-color: #f0f0f0;
+    color: black;
+    font-family: Font1;
+    font-size: 14px;
+    width: 150px;
+}
+
+#nombre input[type="submit"], 
+#nombre button.control-usuario {
+    width: auto;
+    height: auto;
+    padding: 4px 12px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.8), -1px -1px 0px 0px rgba(0, 0, 0, 0.4);
+    background-color: rgb(210, 210, 210);
+    cursor: url(../img/click.png), auto;
+    color: black;
+    font-family: Font1;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: none;
+}
+
+#nombre input[type="submit"]:active, 
+#nombre button.control-usuario:active {
+    box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.4), inset -1px -1px 0px 0px rgba(255, 255, 255, 0.8);
+    padding: 5px 11px 3px 13px;
+}
+
+#nombre label {
+    color: #c0c0c0;
+    margin-right: 10px;
+}
 /* Efectos de texto */
 
 .parpadea-btn {
